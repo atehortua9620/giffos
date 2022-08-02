@@ -1,0 +1,27 @@
+.gifs,
+.darkc {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  /*   border: solid 1px red; */
+  cursor: pointer;
+}
+
+.todos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+.iconNot {
+  width: 150px;
+  height: 150px;
+}

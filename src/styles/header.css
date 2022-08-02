@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+.head,
+.dark {
+  transition-duration: 1s;
+  padding-top: 38px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+
+  height: 64px;
+  /* border: solid  2px black; */
+}
+.dark {
+  transition-duration: 1s;
+  background-color: black;
+}
+
+.button {
+  height: 43px;
+  width: 148px;
+  background: none;
+  border-radius: 61px;
+  border: solid 2px#6809E1;
+  color: #6809e1;
+  cursor: pointer;
+}
